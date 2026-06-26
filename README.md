@@ -5,7 +5,7 @@
 **A minimal, Apple-inspired NFC-ready digital business card.**
 One tap. One URL. Your entire professional identity.
 
-[![Live Site](https://img.shields.io/badge/Live-View%20Card-0a84ff?style=for-the-badge)](https://your-username.github.io)
+[![Live Site](https://img.shields.io/badge/Live-View%20Card-0a84ff?style=for-the-badge)](https://sakib-opsgrid.github.io)
 [![Made with](https://img.shields.io/badge/Built%20with-HTML%20%2B%20CSS%20%2B%20JS-1d1d1f?style=for-the-badge)]()
 [![NFC Ready](https://img.shields.io/badge/NFC-Ready-34c759?style=for-the-badge)]()
 
@@ -94,16 +94,15 @@ No build step, no framework, no `npm install` — it's plain HTML/CSS/JS, so Git
 
 ## 🛠 Updating Your Info
 
-All content lives across three files — no build process, no config files.
+All content lives directly inside `index.html` — no build process, no config files.
 
-| To change... | Edit this file → section |
+| To change... | Edit this section |
 |---|---|
-| Name, title | `index.html` → `.name`, `.role` elements |
-| Photo | `index.html` → replace the `.avatar` initials block with an `<img>` tag |
-| Phone / WhatsApp / Email | `index.html` → `href` values on the `.pa-btn` links |
-| Portfolio / Facebook / LinkedIn | `index.html` → `href` values inside `.links` |
-| Colors, spacing, shadows | `style.css` → CSS variables at the top (`:root`) |
-| vCard data | `script.js` → the `vcard` array |
+| Name, title | `.name`, `.role` elements near the top of the body |
+| Photo | Replace the `.avatar` initials block with an `<img>` tag, or swap in a background image |
+| Phone / WhatsApp / Email | Update the `href` values on the `.pa-btn` links |
+| Portfolio / Facebook / LinkedIn | Update the `href` values inside `.links` |
+| vCard data | Edit the `vcard` array inside the `<script>` block at the bottom of the file |
 
 After editing, commit the change — GitHub Pages redeploys automatically within a minute or two.
 
@@ -113,9 +112,7 @@ After editing, commit the change — GitHub Pages redeploys automatically within
 
 ```
 .
-├── index.html      # Markup and content
-├── style.css       # All visual styling
-├── script.js       # vCard generation + save logic
+├── index.html      # The entire card — HTML, CSS, and JS in one file
 └── README.md       # This file
 ```
 
@@ -132,6 +129,6 @@ Personal use. Feel free to fork and adapt the structure for your own digital car
 <div align="center">
 
 **Najmaz Sakib** · Senior Engineer, Service Assurance
-[Portfolio](http://sakib-opsgrid.io/portfolio/) · [LinkedIn](https://linkedin.com/in/najmaz-sakib) · [Facebook](http://facebook.com/nickson.music)
+[Portfolio](https://sakib-opsgrid.github.io/portfolio/) · [LinkedIn](https://linkedin.com/in/najmaz-sakib) · [Facebook](http://facebook.com/nickson.music)
 
 </div>

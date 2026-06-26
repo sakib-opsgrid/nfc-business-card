@@ -15,7 +15,7 @@ document.getElementById('saveBtn').addEventListener('click', function () {
     'TITLE:Senior Engineer, Service Assurance',
     'TEL;TYPE=CELL:+8801833020438',
     'EMAIL;TYPE=INTERNET:najmaz.sakib@gmail.com',
-    'URL:http://sakib-opsgrid.io/portfolio/',
+    'URL:https://sakib-opsgrid.github.io/portfolio/',
     'X-SOCIALPROFILE;TYPE=facebook:http://facebook.com/nickson.music',
     'X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/najmaz-sakib',
     'END:VCARD'
